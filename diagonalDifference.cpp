@@ -8,8 +8,42 @@ using namespace std;
 
 // https://www.hackerrank.com/challenges/diagonal-difference
 
-/**********************************************************/
+// NEWER SOLUTION:
+// A solution that avoids using arrays/vectors to store and pass data around
+/**************************************************************************/
 
+int main(){
+    
+    int n, input; // Number of rows and columns
+    int pDiagonal = 0; // Sum of numbers from upper left to lower right
+    int sDiagonal = 0; // Sum of numbers from upper right to lower left
+    cin >> n;
+    
+    // For each index (column) of each row...
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> input; // Fill with an int
+            // If current row index and column index are the same...
+            if (i == j) {
+                pDiagonal += input;
+            }
+            /* If the int we're hitting in the row + i == n-1...
+            In other words, if on last number of first row, second last of second row etc...
+            */
+            if (i+j == (n-1)) {
+                sDiagonal += input;
+            }
+        }
+    }
+    // print the absolute difference between the primary and secondary diagonals of the matrix
+    cout << abs(pDiagonal - sDiagonal);
+    
+    return 0;
+}
+
+
+// ORIGINAL SOLUTION (default problem state had setup for a vector matrix)
+/************************************************************************/
 
 int main(){
     
