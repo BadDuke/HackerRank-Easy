@@ -3,8 +3,13 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
-using namespace std;
 
+// https://www.hackerrank.com/challenges/simple-array-sum
+
+/*******************************************************/
+
+
+using namespace std;
 
 int main(){
     int n;
