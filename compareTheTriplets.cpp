@@ -21,8 +21,12 @@
 #include <algorithm>
 #include <unordered_map>
 
-using namespace std;
+https://www.hackerrank.com/challenges/compare-the-triplets
 
+/*********************************************************/
+
+
+using namespace std;
 
 int main() {
 	/* Compare the numbers in Alice's and Bob's number containers at each index and
