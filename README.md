@@ -1,2 +1,2 @@
 # HackerRank-Easy
-My solutions for HackerRank starter problems
+My HackerRank problem solutions ('Easy' category)
