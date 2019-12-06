@@ -1,4 +1,4 @@
-# HackerRank-Easy
+# HackerRank-Solutions
 
 
 <p align="center" margin-top="20px;">
