@@ -39,11 +39,13 @@ class Result
                 {
                     firstCopies++;
                 }
-                else {
+                else
+                {
                     secondCopies++;
                 }
             }
-            else {
+            else
+            {
                 if (Math.Abs(a[i] - a[i - 1]) == 1)
                 {
                     firstNumber = a[i - 1];
@@ -56,6 +58,7 @@ class Result
                     firstCopies = 1;
                     secondCopies = 0;
                 }
+                
                 if (longestStreak < currentStreak)
                 {
                     longestStreak = currentStreak;
@@ -76,9 +79,7 @@ class Solution
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int n = Convert.ToInt32(Console.ReadLine().Trim());
-
         List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
-
         int result = Result.pickingNumbers(a);
 
         textWriter.WriteLine(result);
