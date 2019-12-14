@@ -36,7 +36,6 @@ class Solution
         TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
         int year = Convert.ToInt32(Console.ReadLine().Trim());
-
         string result = dayOfProgrammer(year);
 
         textWriter.WriteLine(result);
