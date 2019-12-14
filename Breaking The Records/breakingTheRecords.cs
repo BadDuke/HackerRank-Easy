@@ -15,8 +15,8 @@ using System;
 class Solution
 {
     // Complete the breakingRecords function below.
-    static int[] breakingRecords(int[] scores) {
-        
+    static int[] breakingRecords(int[] scores)
+    {    
         if (scores.Length < 2)
             return new int[] { 0, 0 };
 
