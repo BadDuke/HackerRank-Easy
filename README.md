@@ -6,3 +6,4 @@
 </p>
 <h3 align="center">My solutions to problems on HackerRank.</h3>
 <h4 align="center">Includes materials such as problem specifications and sample test cases provided by HackerRank.</h4>
+<h4 align="center"><strong>Note:<strong> For Problem Solving questions, the Main functions are pre-existing HackerRank code.</h4>
