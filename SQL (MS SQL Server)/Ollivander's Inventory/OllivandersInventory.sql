@@ -1,5 +1,6 @@
 /*
-The problem statement is flawed in that it does not clearly state the requirement of selecting only the minimum-cost wand for each given age and power pairing.
+  The problem statement is flawed in that it does not clearly state the requirement of
+  selecting only the minimum-cost wand for each given age and power pairing.
 */
 
 SELECT w.id
