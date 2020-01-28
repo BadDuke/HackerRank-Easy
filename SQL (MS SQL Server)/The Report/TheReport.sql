@@ -5,7 +5,7 @@ SELECT
       END AS Name
     , g.Grade
     , s.Marks
-FROM Students s
+FROM  Students s
 INNER JOIN Grades g
       ON s.Marks BETWEEN g.Min_Mark AND g.Max_Mark
 ORDER BY
